@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM sjjctl/python-lint-image:0.0.0
+FROM sjjctl/python-lint-image:0.0.1
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
