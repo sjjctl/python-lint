@@ -1,6 +1,6 @@
-FROM python:3.8.0-alpine3.10
+FROM python:3.10.4-alpine3.15
 
-LABEL maintainer="ricardobchaves6@gmail.com"
+LABEL maintainer="sjjctl@protonmail.com"
 
 RUN apk add --no-cache \
     gcc \
